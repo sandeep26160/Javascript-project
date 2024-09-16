@@ -27,3 +27,8 @@ let someNumber=33
 let stringNumber=String(someNumber)
 console.log(stringNumber);
 console.log(typeof stringNumber);
+// Data type 
+// Primitive =>7 types:string number ,Boolean,null,undefined ,Symbol,BIgInt
+
+
+// NON -Primitive(Reference)=>Array,Object,Function

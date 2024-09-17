@@ -27,3 +27,16 @@ const obj2={3:"c",4:"d"}
 // sperade  object  for the data base value  come from 
 const obj3={...obj1,...obj2}
 console.log(obj3);
+
+// object and de-structure
+
+const course={
+    coursename:"js in hindi",
+    price:"999",
+    courseInstructions:"sandeep"
+}
+// course.courseInstructior
+
+const{courseInstructions:inst}=course
+
+console.log(inst);

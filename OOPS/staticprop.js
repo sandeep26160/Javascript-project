@@ -21,4 +21,4 @@ class Teacher extends User{
 }
 
 const iphone= new Teacher("iphone","iphone@gmail.com")
-console.log(iphone.logMe())
+console.log(iphone.logMe()) 
